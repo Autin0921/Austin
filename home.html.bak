@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h2 style="margin-left:200px;margin-right:200px;">College Student Enrollment System</h2>
+<h3 style="margin-left:200px;margin-right:200px;">Register the details mentioned below</h3>
+<form class="personalinfo" action="next.html" method="post" >
+<div class="container" style="margin-left:200px;margin-right:200px;" >
+<h4 style="float: right;">LRN:<input type="text" placeholder="Enter LRN "  name="LRN" required />
+<h4><b><p>Full Name:<br><input type="text" placeholder="Enter Last Name" name="Name" required/>
+<input type="text" placeholder="Enter First Name" name="Name" required/>
+<input type="text" placeholder="Enter Middle Name" name="Name" required/></p></b></h4>
+<h4><b><p>Gender:<input type="text" placeholder="Enter Gender"  name="Sex"/>
+Birthday:<input type="date"/>
+<h4><b><p>Address:<input type="text" placeholder="Enter complete address"  name="address" required/>
+Email:<input type="text" placeholder="Enter Email"  name="Email" required/>
+<h4><b><p>Contact:<input type="text" placeholder="Enter Contact"  name="Contact number" required/>
+Religion:<input type="text" placeholder="Enter Religion"  name="Religion" required/>
+<h4><b><p>Nationality:<input type="text" placeholder="Enter Nationality"  name="Nationality" required/>
+  Mother Tounge:<input type="text" placeholder="Enter Language"  name="Language" required/>
+<h4><b><p>Father's Name:<input type="text" placeholder="Enter Father's Name"  name="FatherName" required/>
+Father's Occupation:<input type="text" placeholder="Enter Father's Occupation"  name="FatherOccupation" required/></p></b></h4>
+<h4><b><p>Mother's Maiden Name:<input type="text" placeholder="Enter Mother's maiden Name"  name="MotherName" required/>
+Mother's Occupation:<input type="text" placeholder="Enter Mother's Occupation"  name="MotherOccupation" required/></p></b></h4>
+
+  <h2>Educational Attainment</h2>
+<h4><b><p>Elemtary School:<input type="text" placeholder="Enter School"  name="PSchool"/>
+  Address:<input type="text" placeholder="Enter Address School"  name="adress"/>
+  S.Y Graduated:<input type="text" placeholder="Enter year"  name="PSchool"/>
+  <h4><b><p>Junior High School:<input type="text" placeholder="Enter  School"  name="HSchool"/>
+    Address:<input type="text" placeholder="Enter Address"  name="adress"/>
+    S.Y Graduated:<input type="text" placeholder="Enter year"  name="PSchool"/>
+    <h4><b><p>Senior Highschool:<input type="text" placeholder="Enter  School"  name="SSchool"/>
+      Address:<input type="text" placeholder="Enter Address School"  name="adress"/>
+      S.Y Graduated:<input type="text" placeholder="Enter year"  name="PSchool"/><br>
+
+
+</div>
+<div class="container" style="margin-left:200px;margin-right:200px;" >
+<h2><b><p>Enrollment Form</h2>
+<h4><b><p>Enroll for School year: <input type="text" placeholder="Enter School Year"  name="sy"/>
+Semester: <input type="text" placeholder="Enter semester"  name="sy"/><br>
+<br>
+Grade Level: <select class="yl" name="YL" placeholder="Year to Enroll">
+<option value="First Year">First Year</option>
+<option value="First Year">Second Year</option>
+<option value="First Year">Third Year</option>
+<option value="First Year">Fourth Year</option>
+</select>
+Course: <select class="Course" name="Course">
+<option value="Bachelor of Elementary Education">Bachelor of Elementary Education</option>
+<option value="Bachelor of Secondary Education">Bachelor of Secondary Education</option>
+<option value="BS Business Management">BS Business Management</option>
+<option value="BS Computer Science">BS Computer Science</option>
+<option value="BS Hospitality Management">BS Hospitality Management</option>
+<option value="BS Information Technology">BS Information Technology</option>
+<option value="BS Psychology">BS Psychology</option>
+<option value="BS Tourism Management">BS Tourism Management</option>
+</select><br>
+<br>
+<input type="checkbox" id="Freshman" name="Freshman">
+<label for="Freshman"> Freshman</label> <br>
+<input type="checkbox" id="Trasferee" name="Transferee">
+<label for="transferee"> Transferee</label> <br>
+<input type="checkbox" id="ALS passer" name="ALS passers">
+<label for="ALS passer"> ALS passer</label> <br>
+<input type="checkbox" id="Second Courser" name="Second Courser">
+<label for="Second Courser"> Second Courser</label> <br>
+<input type="checkbox" id="Foreign Students" name="Foreign Students">
+<label for="Foreign Student"> Foreign Student</label> <br>
+<input type="checkbox" id="Regular Student" name="Foreign Students">
+<label for="Regular Student"> Regular Student</label> <br>
+<br>
+
+<input type="checkbox" id="agreement" name="agreement">
+<label for="agreement">I ensure that all of information and data that i input is correct.</label> <br>
+<br>
+<button onclick="window.print()">Print this page</button>
+<input type="submit" value="submit"/>
+</div>
+
+</form>
+</body>
+</html>
